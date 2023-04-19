@@ -1,0 +1,152 @@
+/*Universal styles*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0 ;
+    background-color: #3c896d;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*Header*/
+header {
+    background-color: #1c1f33;
+    color: #eff6ee;
+    padding: 5px;
+}
+
+header h1 {
+    margin-left: 50px;
+}
+
+header h1 span {
+    color: #efaac4;
+}
+
+/*section styles*/
+section {
+    background-color: #fff;
+    padding-bottom: 20px;
+    border: 1px solid black; 
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.heading-section {
+    background-image: url(https://img.freepik.com/foto-gratis/plantilla-textiles-palido_1194-6840.jpg);
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+/*Colors*/
+.color-container {
+    margin-left: 20px;
+}
+
+.color {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black; 
+    margin-right: 10px;
+    
+}
+.color p {
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+#viridian {
+    background-color: #3c896d;
+}
+
+#space-cadet {
+    background-color: #1c1f33;
+    color: #fff
+}
+
+#lavander-pink {
+    background-color: #efaac4;
+}
+
+#mint-cream {
+    background-color: #eff6ee;
+}
+
+/*Fonts*/
+
+.font {
+    display: inline-block;
+    margin-left: 20px;
+}
+.font-name {
+    font-size: 20px;
+    text-decoration:underline;
+}
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#oxygen {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*Text styles*/
+
+#text-styles-container {
+    padding: 0 20px;
+}
+
+#text-styles-container h1 {
+    Font-family: Montserrat;
+    Font-size: 26px;
+    Font-weight: 700;
+}
+
+#text-styles-container h2 {
+    Font-family: Roboto;
+    Font-size: 18px;
+    Font-weight: 500;
+}
+
+#text-styles-container p {
+    Font-family: Oxygen;
+    Font-size: 14px;
+    Font-weight: 400;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #1c1f33;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
